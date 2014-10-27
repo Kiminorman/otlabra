@@ -17,7 +17,7 @@ class FizzBuzz():
 
     # Version 2
     def run(self, end, out=sys.stdout):
-        for i in range(3, (end+1)):
+        for i in range(2, (end+1)):
             for n in range(2, i):
                 if ((i % n) == 0):
                         break
